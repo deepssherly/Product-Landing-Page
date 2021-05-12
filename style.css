@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgb(153, 228, 153), rgb(218, 181, 112), rgb(153, 228, 153));
+    position: relative;
+    top: 90px;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: hsl(27, 83%, 72%);
+    display: inline;
+}
+
+p {
+    display: flex;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+nav a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+nav a p {
+    padding-top: 4vh;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 1px 1px #e61f1f;
+}
+
+.nav-bar {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-bar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-bar ul li a:hover {
+    color: rgb(92, 91, 91);
+    text-decoration: underline overline;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    font-style: italic;
+    text-shadow: 2px 2px #eea724;
+}
+
+.form {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#label-input {
+    font-size: 20px;
+}
+
+.mail {
+    width: 22%;
+    height: 3.5%;
+    display: block;
+    margin: auto;
+}
+
+.sub {
+    height: 3.5%;
+    width: 12.6%;
+    background-color: blanchedalmond;
+    border-radius: 40px;
+    border: 3px solid black;
+    font-weight: 800;
+}
+
+.content img {
+    width: 450px;
+    height: 450px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    transition: transform .2s;
+}
+
+.content img:hover {
+    transform: scale(1.13);
+}
+
+.content-para h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px #1a8b03;
+}
+
+.content-para p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 33px;
+    word-spacing: 5px;
+    margin: 38px 90px 0 50px;
+    font-weight: bold;
+}
+
+.content-para button {
+    font-weight: bold;
+    position: absolute;
+    top: 560px;
+    left: 450px;
+    width: 120px;
+    height: 37px;
+    border-radius: 40px;
+    border: 3px solid rgb(4, 172, 4);
+    background-color: rgb(245, 193, 96);
+    font-weight: 800;
+}
+
+#container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#features {
+    margin-top: 250px;
+}
+
+#features h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.feat h5 {
+    margin: 6px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.feat p {
+    font-size: 22px;
+    font-weight: 300px;
+}
+
+#how h6 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#video {
+    margin: 30px 400px 0 480px;
+    width: 550px;
+}
+
+.price {
+    width: 86%;
+    margin: 4%;
+    text-align: center;
+    padding-top: 0%;
+}
+
+.price h7 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+.price-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    box-sizing: border-box;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+h8 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 0 0 3px #2ff507;
+}
+
+.price-col:hover {
+    box-shadow: 0 0 20px 0px rgba(231, 145, 15, 0.699);
+}
+
+.price-col p img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    width: 80px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 22px;
+    background-color: #f1b23b;
+    margin: 12px;
+}
+
+.footer {
+    margin-top: 610px;
+    width: 100%;
+}
+
+.footer p {
+    font-weight: bold;
+    margin-left: 550px;
+}
+
+.icons .fa {
+    color: rgb(201, 79, 9);
+    margin: 0 13px;
+    cursor: pointer;
+}
